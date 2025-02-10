@@ -57,7 +57,7 @@ export default function Page() {
     }
   }
   return (
-    <div>
+    <div className="cardContainer">
       <input placeholder="New task..." type="text" value={text} onKeyDown={handleKeyDown}
         onChange={(e) => setText(e.target.value)} />
       <button onClick={addTask}>Add</button>

@@ -1,4 +1,16 @@
+.cardContainer {
+  width: 342px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 16px;
+  padding: 30px;
 
+}
+
+.inputAdd {
+  display: flex;
+  text-align: center;
+}
 
 
 
